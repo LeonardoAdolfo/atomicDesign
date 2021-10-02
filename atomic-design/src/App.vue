@@ -1,19 +1,20 @@
 <template>
   <div class="app">
-    <NavItem text="Home" to="/home" />
+    <SocialNetworks />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { NavItem } from '@/components/atoms/'
+import { SocialNetworks } from '@/components/molecules'
 
 export default defineComponent({
-  components: { NavItem }
+  components: { SocialNetworks }
 })
 </script>
 
 <style lang="scss" scoped>
 .app {
-  width: 300px;}
+  margin: 5rem;
+}
 </style>
