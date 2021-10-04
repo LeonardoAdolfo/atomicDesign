@@ -1,7 +1,7 @@
 <template>
   <nav class="nav-bar">
     <NavItem text="Serviços" to="/services" />
-    <NavItem text="Sobre Mim" to="/about" />
+    <NavItem text="Sobre mim" to="/about" />
     <NavItem text="Cases" to="/case" />
     <NavItem text="Contato" to="/contact" />
   </nav>
